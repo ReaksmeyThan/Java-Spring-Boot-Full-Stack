@@ -10,6 +10,7 @@ public class AppGamingBasicJava {
 		var gameRunner = new GameRunner(marioGame);
 		gameRunner.run();
 
+		
 	}
 
 }
