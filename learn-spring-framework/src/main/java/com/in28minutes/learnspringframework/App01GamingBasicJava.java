@@ -5,13 +5,13 @@ import com.in28minutes.learnspringframework.game.MarioGame;
 import com.in28minutes.learnspringframework.game.PocManGame;
 import com.in28minutes.learnspringframework.game.SuperContraGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
 
 	public static void main(String[] args) {
 		
 		//var game = new MarioGame();		
 		//var game = new SuperContraGame();
-		var game = new PocManGame();
+		var game = new PocManGame(); // 1:Object Creation
 		
 		
 		var gameRunner = new GameRunner(game);
