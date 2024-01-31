@@ -4,9 +4,9 @@ package com.in28minutes.learnspringframework.game;
 
 public class GameRunner {
 	
-	MarioGame game;
+	GamingConsole game;
 
-	public GameRunner(MarioGame game) {
+	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 
@@ -15,7 +15,7 @@ public class GameRunner {
 		game.up();
 		game.down();
 		game.left();
-		game.rith();
+		game.right();
 	}
 
 }
